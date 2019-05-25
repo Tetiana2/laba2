@@ -1,5 +1,0 @@
-<hazelcast>
-    <map name="customers">
-        <backup-count>1</backup-count>
-    </map>
-</hazelcast>

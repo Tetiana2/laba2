@@ -10,7 +10,7 @@ object TransactionExample {
         val hazelcastInstance = Hazelcast.newHazelcastInstance()
 
         val options = TransactionOptions()
-            .setTransactionType(TransactionOptions.TransactionType.ONE_PHASE)
+            .setTransactionType(TransactionOptions.TransactionType.TWO_PHASE)
 
         val context = hazelcastInstance.newTransactionContext(options)
         context.beginTransaction()
